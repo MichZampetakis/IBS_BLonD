@@ -1,0 +1,21 @@
+
+n_mparts: 1.0e+6            # Number of macro-particles
+N_turns: 16000              # Total number of turns [turns]
+IBS_stp: 50                 # Time step for IBS calculations [turns]
+
+particle: 'Positron'        # Particle; [1]
+mass: 5.11e-4               # Particle's rest mass; [GeV]
+radius: 2.8179e-15          # Particle's classical radius; [m]     0.842e-15???
+charge: 1                   # Particle's charge; [e]
+
+energy: 2.86                # Beam energy; [GeV]
+bunch_intensity: 4.4e9      # Number of particles; [1]
+epsn_x: 5.9e-7              # Normalized Horizontal emittance; [m]
+epsn_y: 3.7e-9              # Normalized Vertical emittance; [m]
+
+tau: 1.72e-11               # Bunch length; [s]
+
+V0max: 4.5e-3               # RF voltage; [GV]
+h: 2852.0                   # Harmonic number; [1]
+
+twissfile: 'twiss/CLIC-DR_for_ORBIT.tfs'

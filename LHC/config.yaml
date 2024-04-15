@@ -1,0 +1,23 @@
+
+n_mparts: 1.0e+5            # Number of macro-particles
+duration: 7200              # Total duration [s]
+ibs_step: 300               # Time step for IBS calculations [s]
+N_turns: 1.0e+6             # Total number of turns [turns]
+IBS_stp: 5.0e+2             # Time step for IBS calculations [turns]
+plt_stp: 5.0e+5             # Time step to plot [turns]
+
+particle: 'proton'          # Particle; [1]
+mass: 0.9382723             # Particle's rest mass; [GeV]
+radius: 1.534698e-18        # Particle's classical radius; [m]     0.842e-15???
+charge: 1                   # Particle's charge; [e]
+
+energy: 450.0               # Beam energy; [GeV]
+bunch_intensity: 1.1e11     # Number of particles; [1]
+epsn_x: 3.4e-6              # Normalized Horizontal emittance; [m]
+epsn_y: 2.3e-6              # Normalized Vertical emittance; [m]
+tau: 1.30e-9                 # Bunch length; [s]
+                
+V0max: 5.0e-3               # RF voltage; [GV]
+h: 35640.0                  # Harmonic number; [1]
+
+twissfile: 'twiss/twiss_lhcb1.tfs'
